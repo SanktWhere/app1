@@ -7,10 +7,11 @@ import registerServiceWorker from './registerServiceWorker';
 const startApp = () => {
     ReactDOM.render(<App />, document.getElementById('root'));
     registerServiceWorker();
-  };
-  
-  if(window.cordova) {
+};
+
+if(window.cordova) {
     document.addEventListener('deviceready', startApp, false);
-  } else {
+} 
+else {
     startApp();
 }
