@@ -26,3 +26,13 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.image {
+  /* height: 100px;
+  width: 100px; */
+  margin: 5px auto 0 auto;
+}
+
+.sliderSet {
+  background:#333333;
+}
